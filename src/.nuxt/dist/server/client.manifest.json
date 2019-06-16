@@ -1,5 +1,5 @@
 {
-  "publicPath": "/_nuxt/",
+  "publicPath": "_nuxt/",
   "all": [
     "../server/index.spa.html",
     "094eb4c2169e83b5d2c3.js",
