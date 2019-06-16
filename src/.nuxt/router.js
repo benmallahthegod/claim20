@@ -2,9 +2,9 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import { interopDefault } from './utils'
 
-const _209f4c6a = () => interopDefault(import('../pages/faq.vue' /* webpackChunkName: "pages/faq" */))
-const _5561cc67 = () => interopDefault(import('../pages/russian.vue' /* webpackChunkName: "pages/russian" */))
-const _27602d26 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _0a3f13ff = () => interopDefault(import('../pages/faq.vue' /* webpackChunkName: "pages/faq" */))
+const _53f9c17c = () => interopDefault(import('../pages/russian.vue' /* webpackChunkName: "pages/russian" */))
+const _282c637b = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 Vue.use(Router)
 
@@ -82,15 +82,15 @@ export function createRouter() {
 
     routes: [{
       path: "/faq",
-      component: _209f4c6a,
+      component: _0a3f13ff,
       name: "faq"
     }, {
       path: "/russian",
-      component: _5561cc67,
+      component: _53f9c17c,
       name: "russian"
     }, {
       path: "/",
-      component: _27602d26,
+      component: _282c637b,
       name: "index"
     }],
 
