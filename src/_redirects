@@ -1,0 +1,2 @@
+# Redirect users in Russia to /russian
+/  /russian   302  Country=ru
